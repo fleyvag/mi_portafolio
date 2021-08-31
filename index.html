@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="img/icono.ico">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frank Anthony Leyva Gomez</title>
+</head>
+<body>
+    <section>
+    <div class="body-principal">
+        <div class="menu"> 
+            <div style="cursor:pointer;"><a   id="inicio"><i class="fal fa-home"></i></a></div>
+            <div style="cursor:pointer;"><a  id="perfil"><i class="far fa-user"></i></a></div>
+            <div style="cursor:pointer;"> <a  id="proyectos"><i class="fas fa-wrench"></i></a></div>
+            <div style="cursor:pointer;"><a  id="contacto"><i class="fas fa-address-card"></i></a></div>
+        </div>
+        <div class="contenido_p" id="contenidoprincipal">
+            <div class="descripcion_perfil">
+                <p >Hola,</p>
+                <p>Soy Frank,</p>
+                <p>desarrollador web</p>
+                <p class="boton-contactame">
+                <a >Encuentrame en mis redes sociales</a></p>
+                <div  class="redes_sociales">
+                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                    <a href=""><i class="fab fa-dribbble"></i></a>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+             <div class="imagen_perfil">
+                <div >
+                    <img class="imagen_principal" src="img/codigo.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- pagina2 -->
+        <div class="contenido_s" id="contenidosecundario">
+            <div class="info_personal">
+                <div class="datos_info">
+                    <p class="nombre_p">Frank Anthony  Leyva Gomez</p>
+                    <p class="descripcion_p">Soy apasionado de la tecnología, autodidacta , enfocado al desarrollo web adaptable a los cambios y me encanta compartir mis conocimientos con los demás.</p>
+                    <div class="caja_datos"  >
+                        <a href="documents/cv_leyva_gomez.pdf" download="curriculum_leyva_gomez" > Descargar CV</a>
+                    </div>
+                </div>
+                <div class="perfil_secundario_img">
+                    <img class="imagen_secundaria" src="img/fp.png" alt=""  >
+                </div>
+            </div>
+        </div>
+        <!--pagina3-->
+        <div class="contenido_t" id="contenidotercero">
+            <h2 class="titulo_t">Mis Proyectos</h2>
+            <div class="pestañas">
+                <ul>
+                    <li class=" lista-pesta active " style="cursor:pointer;" id="1">  web</li>
+                    <li class=" lista-pesta " style="cursor:pointer;" id="2">  movil</li>
+                    <li class=" lista-pesta " style="cursor:pointer;" id="3">  api</li>
+                    <li class=" lista-pesta " style="cursor:pointer;" id="4"> desktop</li>
+                </ul>
+            </div>
+            <div class="proyecto_contenedor">
+                <div class="carta">
+                    <img id="img1" src="img/marptech.png" alt="">
+                    <div class="info_card">
+                        <h2 id="titulo1">Marptech inv</h2>
+                        <p id="descripcion_1">sistema web desarrollado en python con django y postgresql ,sistema de inventarios y facturación</p>
+                        <div><a id="link1" target="_blank" href="https://marptechgroup.herokuapp.com/" class="boton_neon">ver</a></div>
+                    </div>
+                </div>
+                <div class="carta">
+                    <img id="img2" src="img/codigris.png" alt="">
+                    <div class="info_card">
+                        <h2 id="titulo2">Codigris</h2>
+                        <p id="descripcion_2">sistema web para la presentacion de cursos  </p>
+                        <div><a id="link2" target="_blank" href="https://espaciogris.codifyperu.com/" class="boton_neon">ver</a></div>
+                    </div>
+                </div>
+                <div class="carta">
+                    <img id="img3"src="img/img1.jpg" alt="">
+                    <div class="info_card">
+                        <h2 id="titulo3">titulo1</h2>
+                        <p id="descripcion_3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse </p>
+                        <div><a id="link3" target="_blank" href="" class="boton_neon">ver</a></div> 
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <!-- contacto  -->
+
+
+        <div class="contenido_c" id="contenidocuarto">
+           
+        <form name="google-sheet">
+            
+            <div class="titulo_contacto"><h2>Contáctame</h2></div>
+            <div class="formulario_grupo">
+                <div class="classxd">
+                    <label for="nombres" class="formulario_label">Nombre</label>
+                    <input type="text"  name="nombres" id="nombres" class="formulario_input">
+                </div>
+                <div class="classxd">        
+                    <label for="apellidos" class="formulario_label">apellidos</label>
+                    <input type="text" name="apellidos" id="apellidos" class="formulario_input">
+                </div> 
+            </div>         
+            <div class="formulario_grupo">
+                <div class="classxd">
+                    <label for="email" class="formulario_label">Email</label>
+                    <input type="email" name="email" id="email" class="formulario_input">
+                </div>  
+                <div class="classxd"> 
+                    <label for="celular" class="formulario_label">número de contacto</label>
+                    <input type="text" name="celular" id="celular" class="formulario_input">
+                </div>
+            </div>  
+                <div class="classxd">
+                    <label for="campo" class="formulario_label">Contenido</label>
+                    <textarea name="campo"    class="formulario_textarea" id="campo" cols="30" rows="10"></textarea>
+                </div>
+            <div class="boton-centrado"><input type="submit" class="boton_enviar" value="Enviar" id="btnenviarformulario"></div>
+        </form>
+    </div>
+</section> 
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="scripts/script.js"></script>
+
+  
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzdyhzzqKkB3PAM_Pt2uf0LtAaSMhh1tiwSWrAT3s2VlM9f1Pq9RuhoqSr3cAsHk87AKw/exec'
+    const form = document.forms['google-sheet']
+    
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>console.log('Success!', response),alert("mensaje enviado,muchas gracias por su mensaje pronto sera respondido al correo enviado"))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
