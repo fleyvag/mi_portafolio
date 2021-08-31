@@ -66,6 +66,7 @@ li.forEach((cadaLi,i)=>{
                 //card 1
                 $("#img1").attr("src","img/marptech.png");
                 $("#titulo1").text("Marptech inv");
+                $('#link1').attr('href', 'https://marptechgroup.herokuapp.com/login/?next=/');
                 $("#descripcion_1").text("sistema web desarrollado en python con django y postgresql ,sistema de inventarios y facturacion  ");
                 //card2
                 $("#img2").attr("src","img/codigris.png");
