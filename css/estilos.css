@@ -5,7 +5,13 @@
     box-sizing: border-box;
     font-family: Poppins;
     
+    
 }
+
+body{
+    background:#252628;
+}
+
 .body-principal{
     height: 100vh;
     width: 100vw;
@@ -41,6 +47,7 @@
 .menu div a:hover{
     color:#252628;
 }
+
 
 .menu div:hover {
     
@@ -376,3 +383,124 @@
     justify-content:center;
 
 }
+
+@media (max-width: 900px) {
+
+
+            /* .contenidoprincipal{
+    
+    } */
+    .body-principal{
+        height: 100vh;
+        width: 100vw;
+        display: inline-block;
+        background:#252628;
+    
+        }
+        .menu{
+        
+        width:100vw;
+        height:65px;
+        display:flex;
+        
+        flex-direction:row;
+        align-items: center;
+        justify-content:center;
+        background: #181818;
+        
+        }
+        .menu div { 
+            padding: 10px;
+            margin:10px;
+           
+        }
+        .descripcion_perfil p{
+            
+            font-size:30px;
+            align-items: center;
+            justify-content:center;    
+
+        }
+        .descripcion_perfil .boton-contactame a{
+            font-size:18px;
+        }
+        .descripcion_perfil .boton-contactame{
+            padding-top:30px
+        }
+        .contenido_p{
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column-reverse;
+        }
+        .imagen_perfil{
+            margin-top:50px;
+            width:100%;
+            margin-bottom: 30px;
+            
+        }
+        .img_perfil_png{
+            display:flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .redes_sociales a i {
+            margin-top:40px;
+            font-size:15px;
+            
+            
+        }
+        .info_personal{
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column-reverse; 
+            width:100%;
+
+        }
+        .imagen_secundaria{
+            margin-top:30px;
+            width:50vw;
+            height:50vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .nombre_p{
+            font-size: 20px;
+        }
+        .descripcion_p{
+            font-size:12px;
+        }
+        .caja_datos{
+            width:40vw;
+        }
+        .contenidotercero{
+
+        }
+        .pestañas{
+            width:50%;
+            
+
+          
+        }
+        .proyecto_contenedor{
+            display:flex;
+            flex-direction: column;
+            
+            padding-left: 8px;
+            margin-left: 20px;
+            justify-content: center;
+            align-items: center;    
+                    
+        }
+        .carta{
+
+            /* padding-top:20px; */
+            
+
+        }
+        .info_card{
+         
+
+    }
