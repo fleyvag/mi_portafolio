@@ -494,9 +494,20 @@ body{
             align-items: center;    
                     
         }
-        .carta{
+        
+     
+        .titulo_contacto{
+            padding-top:20px;
+
         }
-        .info_card{}
+        .formulario_grupo{
+            display:inline-block;
+            padding: 0 auto ;
+            font-size:16px;
+        }
+        .formulario_label{
+            font-size:16px;
+        }
          
 
     }
